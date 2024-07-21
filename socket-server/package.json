@@ -1,0 +1,31 @@
+{
+  "name": "builderx-sync-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Himanshu Satija",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx sequelize-cli db:migrate && node index.js"
+  },
+  "dependencies": {
+    "@builderx-core/api-sdk": "^2.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fast-json-patch": "^3.0.0-1",
+    "kafkajs": "^1.12.0",
+    "lodash.find": "^4.6.0",
+    "lodash.foreach": "^4.5.0",
+    "lodash.get": "^4.4.2",
+    "lodash.map": "^4.6.0",
+    "lodash.uniqby": "^4.7.0",
+    "mysql2": "^2.1.0",
+    "semver": "6",
+    "sequelize": "^6.3.5",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
